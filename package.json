@@ -9,7 +9,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/app.js"
+    "start": "node src/app.js",
+    "test": "echo \"Eroo: no test specified\" && exit 1"
   },
   "author": "sandro",
   "license": "ISC",
