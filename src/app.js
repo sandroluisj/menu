@@ -11,4 +11,4 @@ app.use('/Workshop',  WorkshopRouter)
 app.use ('/Vehicle', VehicleRouter)
 app.use('/Maintenance', MaintenanceRouter)
 
-app.listen(3000,()=> console.log("Server running on port 3000"))
+app.listen(process.env.PORT,()=> console.log("Server running on port 3000"))
